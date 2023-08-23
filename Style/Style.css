@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Noto Sans';
+ }
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: #e2ce1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background: #36320a;
+    width: 304px;
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+    
+}
+
+.right{
+    background: #fefaa1;
+    width: 640px;
+    height: 555px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0 20px 20px 0;
+
+}
+
+.textfield{
+    width: 80%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 15px 0 0 0;
+    background: #e2ce1a;
+    border-radius: 20px;
+}
+
+input{
+    
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #e2ce1a;
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000064;
+    outline: none;
+    border: 2px solid transparent; 
+ 
+}
+
+input:focus{
+    border-color: blue;
+}
+
+input::placeholder{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 900;
+    border: none;
+}
+
+.cadastrar{
+    color: white;
+    background: #36320a;
+    cursor: pointer;
+    width: 200px;
+    height: 60px;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cadastrar:hover{
+    transition: background 1s;
+    background: black;
+}
+
+.left > h2{
+    color: white;
+}
+
+.left > p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.entrar{
+    color: white;
+    background: #36320a;
+    cursor: pointer;
+    border: solid white 3px;
+    width: 180px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 40px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+.entrar:hover{
+    transition: background 1.5s;
+    background: black;
+}
+
+.left > a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+.right > h1{
+    font-weight: 900;
+}
+
+
+img{
+    border: none;
+    padding-right: 50px;
+}
